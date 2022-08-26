@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT in tam giác</title>
+</head>
+<body>
+    <input type="button" value="Bấm đi rồi biết" onclick="hinh1()"  /><br />
+    <input type="button" value="Bấm đi rồi biết" onclick="hinh2()"  /><br />
+</body>
+<script>
+    function hinh1() {
+        for (i = 0; i < 5; i++) {
+            for (j = 0; j <= i; j++) {
+                document.writeln(" * ");
+            }
+            document.writeln("<br/>");
+        }
+    }
+    function hinh2() {
+        for (i = 0; i < 5; i++) {
+            for (j = 0; j <= 4-i; j++) {
+                document.writeln(" * ");
+            }
+            document.writeln("<br/>");
+        }
+    }
+</script>
+</html>

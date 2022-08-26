@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT tính giai thừa</title>
+</head>
+<body>
+
+</body>
+<script>
+    do {
+        var n = prompt("Nhập vào số để tính giai thừa");
+    } while (isNaN(n) || n === "");
+    n = parseInt(n);
+    var tong = 1;
+    for (; n > 1 ; n--)
+    {
+        var tong = tong * n;
+    }
+    document.write(tong);
+</script>
+</html>
+
